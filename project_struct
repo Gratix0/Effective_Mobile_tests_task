@@ -1,0 +1,32 @@
+library_management/
+│
+├── src/
+│   ├── __init__.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── book.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── book_service.py
+│   │   └── storage_service.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── validators.py
+│   │   └── exceptions.py
+│   └── interface/
+│       ├── __init__.py
+│       └── cli.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_book.py
+│   ├── test_book_service.py
+│   └── test_storage_service.py
+│
+├── data/
+│   └── books.json
+│
+├── README.md
+├── requirements.txt
+├── main.py
+└── setup.cfg
